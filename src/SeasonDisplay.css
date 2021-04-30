@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(235, 235, 87);
+}
+
+.i-l {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.i-r {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.season-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 30px;
+}
+
+.winter {
+    background-color: rgb(186, 223, 255);
+}
+
+.winter i {
+    color: blue;
+}
+
+.summer {
+    background-color: orange;
+}
+
+.summer i {
+    color: red;
+}
+
+.spinner-border {
+    background-color: yellow;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.spinner-border-2 {
+    font-size: 25px;
+    position: absolute;
+    font-weight: 700;
+    top: 50%;
+    left: 41%;
+}
+
+.red {
+    border: 10px solid rgb(247, 41, 41);
+}
